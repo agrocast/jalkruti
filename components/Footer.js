@@ -14,10 +14,12 @@ const Footer = () => {
 								<aside className="widget widget_links">
 									<h2 className="widget-title"><span>Quick Link</span></h2>
 
-									<div className="row">
+									<div className="widget-content">
 
-										<div className="col-lg-6 col-md-6">
-											<div className="widget-content">
+										<div className="row">
+
+											<div className="col-lg-6 col-md-6">
+
 												<ul>
 													<li><Link href="/">Home</Link></li>
 													<li><Link href="/about">About</Link></li>
@@ -25,11 +27,11 @@ const Footer = () => {
 													{/* <li><Link href="/">Recent News</Link></li> */}
 
 												</ul>
-											</div>
 
-										</div>
-										<div className="col-lg-6 col-md-6">
-											<div className="widget-content">
+
+											</div>
+											<div className="col-lg-6 col-md-6">
+						
 												<ul>
 													<li><a href="https://agrocastanalytics.com/" target='_blank'>Agrocast Analytics <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
 													<li><Link href="/">Terms & Conditions</Link></li>
@@ -37,8 +39,9 @@ const Footer = () => {
 													<li><Link href="/contact">Contact Us</Link></li>
 
 												</ul>
-											</div>
 
+
+											</div>
 										</div>
 									</div>
 

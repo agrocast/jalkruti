@@ -8592,7 +8592,7 @@ a:active {
   position: relative;
 }
 
-.widget_links ul>li:first-child,
+/* .widget_links ul>li:first-child,
 .widget_meta ul>li:first-child,
 .widget_nav_menu ul>li:first-child,
 .widget_pages ul>li:first-child,
@@ -8602,9 +8602,9 @@ a:active {
   margin-top: 0;
   padding-top: 0px;
   border-top: 0 none;
-}
+} */
 
-.widget_links ul>li:last-child,
+/* .widget_links ul>li:last-child,
 .widget_meta ul>li:last-child,
 .widget_nav_menu ul>li:last-child,
 .widget_pages ul>li:last-child,
@@ -8613,7 +8613,7 @@ a:active {
 .widget_product_categories ul>li:last-child {
   padding-bottom: 0px;
   margin-bottom: 0px;
-}
+} */
 
 .widget .menu {
   position: relative;
@@ -9670,11 +9670,12 @@ a:active {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 
-  .navbar_main_container .container {
-    padding-left: 0px;
-    padding-right: 0px;
+  .navbar_main_container > .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: 0px !important;
   }
 
   .navbar__toggle {
@@ -9685,7 +9686,7 @@ a:active {
     height: 60px;
     padding: 0px 10px;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     position: fixed;
   }
