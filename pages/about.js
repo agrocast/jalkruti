@@ -99,7 +99,8 @@ const AboutPage = () => {
 						<div className="row align-items-center flex-column-reverse flex-lg-row">
 							<div className="col-md-10 col-lg-6">
 								<div className="fanfact-promo-numbers">
-									<div className="promo-number">
+									<h4>We have expertise in water resource planning, design, and management.</h4>
+									{/* <div className="promo-number">
 										<div className="odometer" data-odometer-final="117">0</div>
 										<h4 className="promo-title">Happy Client</h4>
 									</div>
@@ -114,7 +115,7 @@ const AboutPage = () => {
 									<div className="promo-number">
 										<div className="odometer" data-odometer-final="156">0</div>
 										<h4 className="promo-title">Project Complete</h4>
-									</div>
+									</div> */}
 								</div>
 							</div>
 							<div className="col-md-10 col-lg-6">
