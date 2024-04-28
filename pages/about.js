@@ -1,5 +1,3 @@
-import PagesNavbar from '../components/PagesNavbar'
-import ScrollToTopButton from '../components/ScrollToTopButton'
 import React from 'react'
 import teamMember1 from "../public/images/team/1.jpg"
 import teamMember2 from "../public/images/team/2.jpg"
@@ -8,15 +6,13 @@ import teamMember4 from "../public/images/team/4.jpg"
 import teamMember5 from "../public/images/team/5.jpg"
 import Image from 'next/image'
 import backgroundImg from "../public/images/bg/about-bg.jpg"
-import Footer from '../components/Footer'
 import PageTitle from '../components/PageTitle'
-import Navbar from '../components/MainNavbar'
 import Head from 'next/head'
 
-import BuildTrust from "../public/images/icon/services/BuildTrust.png"
-import Takecharge from "../public/images/icon/services/Takecharge.png"
-import ThriveTogether from "../public/images/icon/services/ThriveTogether.png"
-import Quality from "../public/images/icon/services/Quality.png"
+import BuildTrust from "../public/images/icon/BuildTrust.png"
+import Takecharge from "../public/images/icon/Takecharge.png"
+import ThriveTogether from "../public/images/icon/ThriveTogether.png"
+import Quality from "../public/images/icon/Quality.png"
 
 
 
@@ -70,7 +66,7 @@ const AboutPage = () => {
 			<Head>
 				<meta name="description" content="Jalkruti Water Solutions Private Limited" />
 				<meta name="keywords" content="Jalkruti Water Solutions Private Limited, Water Solution" />
-				<title>About</title>
+				<title>About | Jalkruti Water Solutions</title>
 			</Head>
 
 			<PageTitle
@@ -80,7 +76,7 @@ const AboutPage = () => {
 
 
 
-			<div id="about-block" className="about-us-block about-style-two pd-t-170">
+			<div id="about-block" className="about-us-block about-style-two pd-t-170" data-aos="fade-up">
 				{/* <div className="container container-1200">
 					<div className="row justify-content-center">
 						<div className="col-lg-8">
@@ -135,7 +131,7 @@ const AboutPage = () => {
 
 
 
-			<div id="service-block" class="services-block pd-t-170">
+			<div id="service-block" class="services-block pd-t-170" data-aos="fade-up">
 				<div class="container container-1200">
 					<div class="row justify-content-center">
 						<div class="col-lg-8">
@@ -227,7 +223,7 @@ const AboutPage = () => {
 
 
 
-			<div className="team-block pd-t-170 pd-b-170">
+			<div className="team-block pd-t-170 pd-b-170" data-aos="fade-up">
 				<div className="container container-1200 ml-b-30">
 					<div className="row justify-content-center">
 						<div className="col-lg-8">
@@ -285,7 +281,7 @@ const AboutPage = () => {
 			</div>
 
 
-			<div className="team-block pd-t-170 pd-b-170">
+			<div className="team-block pd-t-170 pd-b-170" data-aos="fade-up">
 				<div className="container container-1200 ml-b-30">
 					<div className="row justify-content-center">
 						<div className="col-lg-8">
@@ -338,6 +334,8 @@ const AboutPage = () => {
 
 				</div>
 			</div>
+
+			
 
 
 

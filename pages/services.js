@@ -1,21 +1,10 @@
 import Head from 'next/head'
-import Footer from '../components/Footer'
-import Navbar from '../components/MainNavbar'
 import PageTitle from '../components/PageTitle'
 import React from 'react'
 import Image from 'next/image'
-
-import Img1 from "../public/images/services/img1.jpg"
-
-import Img2 from "../public/images/services/img2.jpg"
-import Img3 from "../public/images/services/img3.jpg"
-import Img4 from "../public/images/services/img4.jpg"
-
 import problem1 from "../public/images/services/problem1.jpg"
 import problem2 from "../public/images/services/problem2.jpg"
 import problem3 from "../public/images/services/problem3.jpg"
-
-import Link from 'next/link'
 import ServicesCards from '../components/ServicesCards'
 
 const ServicesPage = () => {
@@ -26,7 +15,7 @@ const ServicesPage = () => {
       <Head>
         <meta name="description" content="Jalkruti Water Solutions Private Limited" />
         <meta name="keywords" content="Jalkruti Water Solutions Private Limited, Water Solution" />
-        <title>Services</title>
+        <title>Services | Jalkruti Water Solutions</title>
       </Head>
 
       <PageTitle
@@ -36,10 +25,10 @@ const ServicesPage = () => {
 
 
 
-      <div class="site-content">
+      <div class="site-content" >
 
 
-        <div class="blog-page-block pd-t-100 pd-b-130">
+        <div class="blog-page-block pd-t-100 pd-b-130" data-aos="fade-up">
 
           <div className="container container-1200">
 
@@ -164,7 +153,7 @@ const ServicesPage = () => {
 
         </div >
 
-        <div id="blog-block" className="latest-news-block pd-t-170 pd-b-170">
+        <div id="blog-block" className="latest-news-block pd-t-170 pd-b-170" data-aos="fade-up">
           <div className="container container-1200 ml-b-30">
             <div className="row justify-content-center">
               <div className="col-lg-8">

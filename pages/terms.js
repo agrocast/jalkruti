@@ -8,16 +8,24 @@ const TermAndConditions = () => {
       <Head>
         <meta name="description" content="Jalkruti Water Solutions Private Limited" />
         <meta name="keywords" content="Jalkruti Water Solutions Private Limited, Water Solution" />
-        <title>Term and Conditions</title>
+        <title>Terms and Conditions | Jalkruti Water Solutions</title>
       </Head>
 
       <PageTitle
-        pageName="Contact Us"
-        TagLine="How can we help you?"
+        pageName="Terms and Conditions"
+        TagLine=""
       />
 
 
-      TermAndConditions</div>
+
+
+
+
+
+
+
+
+    </div>
   )
 }
 

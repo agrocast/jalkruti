@@ -1,32 +1,30 @@
 import '../styles/global.css';
 import "../styles/bootstrap.min.css";
-// import "../styles/owl.carousel.min.css";
-// import "../styles/simple-scrollbar.css";
-// import "../styles/odometer-theme-default.css";
-// import "../styles/fontawesome.all.min.css";
 import "../styles/style.css";
 
 import Footer from '../components/Footer';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 
 import NavbarMain from '../components/NavbarMain';
-
+import { React, useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function MyApp({ Component, pageProps }) {
-  return(
+  
+  useEffect(() => {
+    AOS.init()
+ }, [])
+
+  return (
     <>
-
-
-      <NavbarMain/>
-
-    <Component {...pageProps} />
-
-    <ScrollToTopButton />
-    <Footer/>
-
+      <NavbarMain />
+      <Component {...pageProps} />
+      <ScrollToTopButton />
+      <Footer />
     </>
-  ) 
+  )
 }
 
 export default MyApp

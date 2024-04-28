@@ -22,7 +22,6 @@ const Footer = () => {
 													<li><Link href="/">Home</Link></li>
 													<li><Link href="/about">About</Link></li>
 													<li><Link href="/services">Services</Link></li>
-													<li><a href="https://agrocastanalytics.com/" target='_blank'>Agrocast Analytics</a></li>
 													{/* <li><Link href="/">Recent News</Link></li> */}
 
 												</ul>
@@ -32,9 +31,9 @@ const Footer = () => {
 										<div className="col-lg-6 col-md-6">
 											<div className="widget-content">
 												<ul>
-													<li><a href="https://agrocastanalytics.com/" target='_blank'>Agrocast Analytics</a></li>
+													<li><a href="https://agrocastanalytics.com/" target='_blank'>Agrocast Analytics <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
 													<li><Link href="/">Terms & Conditions</Link></li>
-													<li><Link href="/">Privacy Policies</Link></li>
+													{/* <li><Link href="/">Privacy Policies</Link></li> */}
 													<li><Link href="/contact">Contact Us</Link></li>
 
 												</ul>

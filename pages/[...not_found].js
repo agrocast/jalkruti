@@ -1,12 +1,24 @@
 import Image from 'next/image'
 import React from 'react'
 import img1 from "../public/images/others/404.png"
-import Footer from '../components/Footer'
-import PagesNavbar from '../components/PagesNavbar'
+import Head from 'next/head'
+import PageTitle from '../components/PageTitle'
 const NotFoundPage = () => {
   return (
     <>
-    <PagesNavbar/>
+
+      <Head>
+        <meta name="description" content="Jalkruti Water Solutions Private Limited" />
+        <meta name="keywords" content="Jalkruti Water Solutions Private Limited, Water Solution" />
+        <title>Page Not Found | Jalkruti Water Solutions</title>
+      </Head>
+
+      <PageTitle
+        pageName="Oops! Page Not Found"
+        TagLine=""
+      />
+
+
       <div className="error-page-block pd-t-60">
         <div className="container">
           <div className="row justify-content-center">

@@ -1,8 +1,4 @@
-
-import Footer from '../components/Footer'
-import Navbar from '../components/MainNavbar'
 import PageTitle from '../components/PageTitle'
-import PagesNavbar from '../components/PagesNavbar'
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Head from 'next/head'
@@ -66,7 +62,7 @@ const ContactPage = () => {
       <Head>
         <meta name="description" content="Jalkruti Water Solutions Private Limited" />
         <meta name="keywords" content="Jalkruti Water Solutions Private Limited, Water Solution" />
-        <title>Contact Us</title>
+        <title>Contact Us | Jalkruti Water Solutions</title>
       </Head>
 
       <PageTitle
@@ -74,7 +70,7 @@ const ContactPage = () => {
         TagLine="How can we help you?"
       />
 
-      <div className="site-content">
+      <div className="site-content" >
 
 
         {/* <div className="section-title text-center pd-t-170">
@@ -85,7 +81,7 @@ const ContactPage = () => {
 
         {/* <div id="about-block" className="about-us-block about-style-two pd-t-170"> */}
 
-        <div className="blog-page-block pd-t-170 pd-b-130">
+        <div className="blog-page-block pd-t-170 pd-b-100" data-aos="fade-up">
           <div className="container container-1200">
             <div className="row">
               <div className="col-lg-8">
@@ -181,10 +177,10 @@ const ContactPage = () => {
                     <h3 className="comment-reply-title section-heading">Reach Us</h3>
                     <div className="row">
                       <p>
-                      <strong> Address:</strong> Research Park, IIT Gandhinagar, Gujarat, 382355
+                        <strong> Address:</strong> Research Park, IIT Gandhinagar, Gujarat, 382355
                       </p>
 
-                      
+
 
                       <p><strong> Office Hours:</strong> <br />
                         Mon To Sat - 09.00-18.00 <br />
@@ -193,7 +189,7 @@ const ContactPage = () => {
 
                       <p><strong> Email:</strong> vivek@jalkruti.com</p>
                       <p><strong> Mobile No.:</strong> +91-9909028626</p>
-                      
+
 
                     </div>
                   </div>
@@ -205,6 +201,22 @@ const ContactPage = () => {
 
 
 
+        </div>
+
+
+        <div className="blog-page-block pd-t-50 pd-b-130" data-aos="fade-up">
+          <div className="container container-1200">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="comment-respond" style={{ minHeight:"300px", height: "100%", padding:"10px" }}>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14666.716008600612!2d72.6903549!3d23.2183661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2bdd10281fa1%3A0xc3f3a36276b39c77!2sIIT%20Gandhinagar%20Research%20Park!5e0!3m2!1sen!2sin!4v1691746161029!5m2!1sen!2sin" width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" aria-hidden="false" tabIndex={0}
+                    referrerPolicy="no-referrer-when-downgrade" title='Google Map'>
+                  </iframe>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
