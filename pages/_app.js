@@ -2,7 +2,6 @@ import '../styles/global.css';
 import "../styles/bootstrap.min.css";
 import "../styles/style.css";
 
-import Footer from '../components/Footer';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 
 import NavbarMain from '../components/NavbarMain';
@@ -22,7 +21,7 @@ function MyApp({ Component, pageProps }) {
       <NavbarMain />
       <Component {...pageProps} />
       <ScrollToTopButton />
-      <Footer />
+ 
     </>
   )
 }

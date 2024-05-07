@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import backgroundImg from "../public/images/bg/page-heading-bg.jpg"
+import backgroundImg from "../public/images/bg/page-heading-bg.gif"
 
 
 const PageTitle = ({ pageName, TagLine}) => {

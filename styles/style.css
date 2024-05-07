@@ -2213,7 +2213,9 @@ img {
 .bg-image {
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: cover !important;
+
+
 }
 
 .bg-fixed {
@@ -5159,25 +5161,25 @@ a:active {
 
 @media (min-width: 576px) {
   .hero-block .hero-title {
-    font-size: 42px;
+    font-size: 32px;
   }
 }
 
 @media (min-width: 768px) {
   .hero-block .hero-title {
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 
 @media (min-width: 992px) {
   .hero-block .hero-title {
-    font-size: 72px;
+    font-size: 62px;
   }
 }
 
 @media (min-width: 1200px) {
   .hero-block .hero-title {
-    font-size: 86px;
+    font-size: 56px;
   }
 }
 
@@ -5985,6 +5987,10 @@ a:active {
 /*--------------------------------------------------------------
     [ ## team ]
 --------------------------------------------------------------*/
+.team-items-list{
+  display: flex;
+}
+
 .team-block .team-item {
   background-color: #f8f8f8;
   margin-bottom: 30px;
@@ -6024,6 +6030,10 @@ a:active {
   .team-block .team-item .team-thumb:before {
     height: 55px;
   }
+  .team-items-list{
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 992px) {
@@ -6045,18 +6055,18 @@ a:active {
 }
 
 .team-block .team-item .team-info {
-  padding: 20px;
+  padding: 10px;
 }
 
 @media (min-width: 1200px) {
   .team-block .team-item .team-info {
-    padding: 20px 30px;
+    padding: 10px 10px;
   }
 }
 
 @media (min-width: 1400px) {
   .team-block .team-item .team-info {
-    padding: 20px 40px 25px;
+    padding: 10px 10px;
   }
 }
 
@@ -6075,7 +6085,7 @@ a:active {
 }
 
 .team-block .team-item .team-info .team-name {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 13px;
   line-height: 1.35em;
   font-weight: 700;
@@ -6083,13 +6093,13 @@ a:active {
 
 @media (min-width: 992px) {
   .team-block .team-item .team-info .team-name {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 1200px) {
   .team-block .team-item .team-info .team-name {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
@@ -6731,14 +6741,14 @@ a:active {
 @media (min-width: 768px) {
   .post .entry-title {
     font-size: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 }
 
 @media (min-width: 992px) {
   .post .entry-title {
     font-size: 28px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 }
 
@@ -9672,7 +9682,7 @@ a:active {
 
 @media screen and (max-width: 1000px) {
 
-  .navbar_main_container > .container {
+  .navbar_main_container>.container {
     padding-left: 0px !important;
     padding-right: 0px !important;
     margin: 0px !important;

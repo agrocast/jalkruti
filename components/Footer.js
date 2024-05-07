@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Footer = () => {
 	return (
@@ -24,7 +25,10 @@ const Footer = () => {
 													<li><Link href="/">Home</Link></li>
 													<li><Link href="/about">About</Link></li>
 													<li><Link href="/services">Services</Link></li>
-													{/* <li><Link href="/">Recent News</Link></li> */}
+													<li><Link href="/contact">Contact Us</Link></li>
+													<li><a href="https://clustrmaps.com/site/1bzlq" target='_blank'>Website Visitors <FaExternalLinkAlt /></a></li>
+
+			
 
 												</ul>
 
@@ -33,10 +37,10 @@ const Footer = () => {
 											<div className="col-lg-6 col-md-6">
 						
 												<ul>
-													<li><a href="https://agrocastanalytics.com/" target='_blank'>Agrocast Analytics <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-													<li><Link href="/">Terms & Conditions</Link></li>
+													{/* <li><a href="https://agrocastanalytics.com/" target='_blank'>Agrocast Analytics <i class="fa fa-external-link" aria-hidden="true"></i></a></li> */}
+													{/* <li><Link href="/">Terms & Conditions</Link></li> */}
 													{/* <li><Link href="/">Privacy Policies</Link></li> */}
-													<li><Link href="/contact">Contact Us</Link></li>
+													
 
 												</ul>
 
@@ -56,14 +60,14 @@ const Footer = () => {
 												<div className="icon">
 													<i className="fa fa-envelope-o"></i>
 												</div>
-												<p><a href="mailto:support@vivek@jalkruti.com">vivek@jalkruti.com</a></p>
+												<p><a href="mailto:info@jalkruti.com">info@jalkruti.com</a></p>
 											</div>
-											<div className="single-contact-info">
+											{/* <div className="single-contact-info">
 												<div className="icon">
 													<i class="fa fa-phone" aria-hidden="true"></i>
 												</div>
 												<p>+91-9909028626</p>
-											</div>
+											</div> */}
 										</div>
 										<div className="col-lg-6 col-md-6">
 
@@ -78,11 +82,11 @@ const Footer = () => {
 
 													<div class="entry-share">
 
-														<div class="share">
-															<a href="#"><i class="fa fa-facebook-f"></i></a>
+														<div class="share" style={{display:"flex", textAlign:"right"}}>
+															{/* <a href="#"><i class="fa fa-facebook-f"></i></a> */}
 															<a href="#"><i class="fa fa-twitter"></i></a>
 															<a href="#"><i class="fa fa-linkedin"></i></a>
-															<a href="#"><i class="fa fa-youtube"></i></a>
+															{/* <a href="#"><i class="fa fa-youtube"></i></a> */}
 
 
 

@@ -13,6 +13,7 @@ import BuildTrust from "../public/images/icon/BuildTrust.png"
 import Takecharge from "../public/images/icon/Takecharge.png"
 import ThriveTogether from "../public/images/icon/ThriveTogether.png"
 import Quality from "../public/images/icon/Quality.png"
+import Footer from '../components/Footer'
 
 
 
@@ -134,6 +135,7 @@ const AboutPage = () => {
 
 			<div id="service-block" class="services-block pd-t-170" data-aos="fade-up">
 				<div class="container container-1200">
+					
 					<div class="row justify-content-center">
 						<div class="col-lg-8">
 							<div class="section-title text-center">
@@ -230,7 +232,7 @@ const AboutPage = () => {
 						<div className="col-lg-8">
 							<div className="section-title text-center">
 								<h2 className="title-main">
-									Meet The Founders
+									Team Jalkruti
 								</h2>
 								{/* <p className="sub-title">We work with you, Not for you</p> */}
 							</div>
@@ -238,12 +240,12 @@ const AboutPage = () => {
 						</div>
 					</div>
 
-					<div className="row team-items-list gutters-30">
+					<div className="team-items-list gutters-30" >
 
 
-						{TeamData.slice(0, 3).map((item, index) => (
-							<div key={index} className="col-lg-4 col-md-6">
-								<div className="team-item">
+						{TeamData.map((item, index) => (
+							<div key={index} style={{width:"20%" }}>
+								<div className="team-item" style={{border:"1px solid #cfcfcf", minHeight:"450px"}}>
 									<figure className="team-thumb">
 										<Image src={item.ProfielPhoto} alt="Team Member" />
 									</figure>
@@ -282,7 +284,7 @@ const AboutPage = () => {
 			</div>
 
 
-			<div className="team-block pd-t-170 pd-b-170" data-aos="fade-up">
+			{/* <div className="team-block pd-t-170 pd-b-170" data-aos="fade-up">
 				<div className="container container-1200 ml-b-30">
 					<div className="row justify-content-center">
 						<div className="col-lg-8">
@@ -291,7 +293,6 @@ const AboutPage = () => {
 									Supporting Members
 
 								</h2>
-								{/* <p className="sub-title">We work with you, Not for you</p> */}
 							</div>
 
 						</div>
@@ -334,14 +335,14 @@ const AboutPage = () => {
 
 
 				</div>
-			</div>
+			</div> */}
 
 			
 
 
 
 
-
+<Footer/>
 
 
 		</>

@@ -2,6 +2,7 @@ import PageTitle from '../components/PageTitle'
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Head from 'next/head'
+import Footer from '../components/Footer';
 
 const ContactPage = () => {
 
@@ -87,7 +88,7 @@ const ContactPage = () => {
               <div className="col-lg-8">
                 <div className="comment-respond" style={{ height: "100%" }}>
                   <div className="comment-form">
-                    <h3 className="comment-reply-title section-heading">Get in Touch with Our Experts</h3>
+                    <h3 className="comment-reply-title section-heading">Connect with Us</h3>
                     <div className="row">
                       <div className="col-lg-6 col-md-6">
                         <div className="group">
@@ -158,7 +159,7 @@ const ContactPage = () => {
                           disabled={isLoading}
                           style={{ opacity: isLoading ? 0.5 : 1, pointerEvents: isLoading ? 'none' : 'auto' }}
                         >
-                          {isLoading ? 'Sending...' : 'Send Message'}
+                          {isLoading ? 'Sending...' : 'Send'}
                         </button>
                         <p>{message}</p>
 
@@ -177,18 +178,25 @@ const ContactPage = () => {
                     <h3 className="comment-reply-title section-heading">Reach Us</h3>
                     <div className="row">
                       <p>
-                        <strong> Address:</strong> Research Park, IIT Gandhinagar, Gujarat, 382355
+                        <strong> Office:</strong> Research Park, IIT Gandhinagar, Gujarat, 382355
                       </p>
 
 
 
-                      <p><strong> Office Hours:</strong> <br />
+                      <p><strong> Hours:</strong> <br />
                         Mon To Sat - 09.00-18.00 <br />
                         Sunday - Close
                       </p>
 
-                      <p><strong> Email:</strong> vivek@jalkruti.com</p>
-                      <p><strong> Mobile No.:</strong> +91-9909028626</p>
+                      <p><strong> Email:</strong> info@jalkruti.com</p>
+
+
+                      <div  style={{ minHeight:"400px", width: "100%", }}>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14666.716008600612!2d72.6903549!3d23.2183661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2bdd10281fa1%3A0xc3f3a36276b39c77!2sIIT%20Gandhinagar%20Research%20Park!5e0!3m2!1sen!2sin!4v1691746161029!5m2!1sen!2sin" width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" aria-hidden="false" tabIndex={0}
+                    referrerPolicy="no-referrer-when-downgrade" title='Google Map'>
+                  </iframe>
+                </div>
+
 
 
                     </div>
@@ -204,7 +212,7 @@ const ContactPage = () => {
         </div>
 
 
-        <div className="blog-page-block pd-t-50 pd-b-130" data-aos="fade-up">
+        {/* <div className="blog-page-block pd-t-50 pd-b-130" data-aos="fade-up">
           <div className="container container-1200">
             <div className="row">
               <div className="col-lg-12">
@@ -217,12 +225,12 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
 
 
-
+<Footer/>
 
     </>
   )
