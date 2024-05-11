@@ -154,10 +154,11 @@ const ContactPage = () => {
                       <div className="form-submit clearfix">
 
                         <button
+
                           onClick={onSubmit}
                           className="btn btn-primary"
                           disabled={isLoading}
-                          style={{ opacity: isLoading ? 0.5 : 1, pointerEvents: isLoading ? 'none' : 'auto' }}
+                          style={{ opacity: isLoading ? 0.5 : 1, pointerEvents: isLoading ? 'none' : 'auto', padding:"5px" }}
                         >
                           {isLoading ? 'Sending...' : 'Send'}
                         </button>
@@ -191,7 +192,7 @@ const ContactPage = () => {
                       <p><strong> Email:</strong> info@jalkruti.com</p>
 
 
-                      <div  style={{ minHeight:"400px", width: "100%", }}>
+                      <div  style={{ minHeight:"250px", width: "100%", }}>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14666.716008600612!2d72.6903549!3d23.2183661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2bdd10281fa1%3A0xc3f3a36276b39c77!2sIIT%20Gandhinagar%20Research%20Park!5e0!3m2!1sen!2sin!4v1691746161029!5m2!1sen!2sin" width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" aria-hidden="false" tabIndex={0}
                     referrerPolicy="no-referrer-when-downgrade" title='Google Map'>
                   </iframe>

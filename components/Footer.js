@@ -1,7 +1,8 @@
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 import { FaExternalLinkAlt } from "react-icons/fa";
-
+import logo from "../public/images/logo/PrimaryLogo_Coloured.png"
 const Footer = () => {
 	return (
 		<footer id="contact-block" className="site-footer">
@@ -11,47 +12,26 @@ const Footer = () => {
 					<div className="footer-widget-area">
 						<div className="row">
 
-							<div className="col-lg-6 col-md-6">
-								<aside className="widget widget_links">
-									<h2 className="widget-title"><span>Quick Link</span></h2>
+							<div className="col-lg-8 col-md-8">
+									<div className='footer_logo'>
+									<Image src={logo} alt="logo_image"/>
 
-									<div className="widget-content">
-
-										<div className="row">
-
-											<div className="col-lg-6 col-md-6">
-
-												<ul>
-													<li><Link href="/">Home</Link></li>
-													<li><Link href="/about">About</Link></li>
-													<li><Link href="/services">Services</Link></li>
-													<li><Link href="/contact">Contact Us</Link></li>
-													<li><a href="https://clustrmaps.com/site/1bzlq" target='_blank'>Website Visitors <FaExternalLinkAlt /></a></li>
-
-			
-
-												</ul>
-
-
-											</div>
-											<div className="col-lg-6 col-md-6">
-						
-												<ul>
-													{/* <li><a href="https://agrocastanalytics.com/" target='_blank'>Agrocast Analytics <i class="fa fa-external-link" aria-hidden="true"></i></a></li> */}
-													{/* <li><Link href="/">Terms & Conditions</Link></li> */}
-													{/* <li><Link href="/">Privacy Policies</Link></li> */}
-													
-
-												</ul>
-
-
-											</div>
-										</div>
 									</div>
+									{/* <h2 className="widget-title"><span>Quick Link</span></h2> */}
 
-								</aside>
+									{/* <div className="footer_widget widget-content" >
+
+
+										<Link href="/">Home</Link> 
+										<Link href="/about">About</Link>
+										<Link href="/services">Services</Link>
+										<Link href="/contact">Contact Us</Link>
+										<a href="https://clustrmaps.com/site/1bzlq" target='_blank'>Website Visitors <FaExternalLinkAlt /></a>
+
+									</div> */}
+
 							</div>
-							<div className="col-lg-6 col-md-6">
+							<div className="col-lg-4 col-md-4">
 								<aside className="widget widget_contact">
 
 									<div className="row">
@@ -82,7 +62,7 @@ const Footer = () => {
 
 													<div class="entry-share">
 
-														<div class="share" style={{display:"flex", textAlign:"right"}}>
+														<div class="share" style={{ display: "flex", textAlign: "right" }}>
 															{/* <a href="#"><i class="fa fa-facebook-f"></i></a> */}
 															<a href="#"><i class="fa fa-twitter"></i></a>
 															<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -118,8 +98,8 @@ const Footer = () => {
 					</div>
 				</div>
 
-			</div>
-		</footer>
+			</div >
+		</footer >
 	)
 }
 

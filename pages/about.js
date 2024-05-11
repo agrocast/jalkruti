@@ -72,7 +72,7 @@ const AboutPage = () => {
 
 			<PageTitle
 				pageName="About Us"
-				TagLine="Pioneering Water Engineering Excellence"
+				TagLine="Water Engineering Excellence"
 			/>
 
 
@@ -244,7 +244,7 @@ const AboutPage = () => {
 
 
 						{TeamData.map((item, index) => (
-							<div key={index} style={{width:"20%" }}>
+							<div key={index} className='team_container'>
 								<div className="team-item" style={{border:"1px solid #cfcfcf", minHeight:"450px"}}>
 									<figure className="team-thumb">
 										<Image src={item.ProfielPhoto} alt="Team Member" />

@@ -6,7 +6,6 @@ import backgroundImg1 from "../public/images/others/shape.png"
 import Link from "next/link";
 import aboutImg from "../public/images/about.png"
 import Head from 'next/head';
-import ServicesCards from '../components/ServicesCards';
 
 export default function Home() {
   const aboutProgressRef = useRef(null);
@@ -33,7 +32,7 @@ export default function Home() {
             <div className="col-lg-8">
               <div className="hero-content-area">
                 <h2 className="hero-title">
-                  Advanced Water Engineering & Management Solutions
+                  Advancing <br/> Water Engineering &<br/> Management Solutions
                 </h2>
 
                 <Link href="/services" className="btn btn-primary">Our Services <i className="fa fa-angle-double-right"></i></Link>

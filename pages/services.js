@@ -7,23 +7,33 @@ import dam2 from "../public/images/services/dam2.jpg"
 import dam3 from "../public/images/services/dam3.jpg"
 import dam4 from "../public/images/services/dam4.jpg"
 import dam5 from "../public/images/services/dam5.jpg"
+import dam6 from "../public/images/services/dam6.jpg"
+import dam7 from "../public/images/services/dam7.jpg"
+import dam8 from "../public/images/services/dam8.jpg"
 
 import canal1 from "../public/images/services/canal1.jpg"
 import canal2 from "../public/images/services/canal2.jpg"
-import canal3 from "../public/images/services/canal3.jpg"
 import canal4 from "../public/images/services/canal4.jpg"
-import canal5 from "../public/images/services/canal5.jpg"
+
 
 import harvesting1 from "../public/images/services/harvesting1.jpg"
 import harvesting2 from "../public/images/services/harvesting2.jpg"
-import harvesting3 from "../public/images/services/harvesting3.jpg"
 import harvesting4 from "../public/images/services/harvesting4.jpg"
-import harvesting5 from "../public/images/services/harvesting5.jpg"
 
+import planning1 from "../public/images/services/planning1.jpg"
+import planning2 from "../public/images/services/planning2.jpg"
 
+import river1 from "../public/images/services/river1.jpg"
+import river2 from "../public/images/services/river2.jpg"
 
-import ServicesCards from '../components/ServicesCards'
+import legal1 from "../public/images/services/legal1.jpg"
+
 import Footer from '../components/Footer'
+import ImageSlideshow from '../components/ImageSlideshow'
+
+
+
+
 
 const ServicesPage = () => {
   return (
@@ -43,10 +53,11 @@ const ServicesPage = () => {
 
 
 
+
       <div class="site-content" >
 
 
-        <div class="blog-page-block pd-t-100 pd-b-130" data-aos="fade-up">
+        <div class="blog-page-block pd-t-100 pd-b-130">
 
           <div className="container container-1200">
 
@@ -62,14 +73,14 @@ const ServicesPage = () => {
             </div> */}
 
 
-            <div class="container container-1200 pd-b-100">
+            <div class="container container-1200 ">
               <div class="blog-single-page">
-                <article class="post single-post">
+                <article class="post single-post pd-b-100" data-aos="fade-up">
                   <div class="row">
                     <div class="col-lg-6">
-                    <figure class="post-thumb" style={{marginBottom:"20px"}}>
-                        <Image src={dam1} alt="Blog Image" />
-                      </figure>
+                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
+                        <ImageSlideshow images={[dam1, dam2, dam3, dam4, dam5, dam6, dam7, dam8]} />
+                      </div>
                     </div>
 
                     <div class="col-lg-6">
@@ -100,32 +111,7 @@ const ServicesPage = () => {
                     </div>
                   </div>
 
-                  <div class="row portfolio-grid gutters-40">
-                    <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                      <figure class="portfolio-thumb">
-                        <Image src={dam2} alt="portfolio Item" />
-                      </figure>
-                    </div>
 
-                    <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                      <figure class="portfolio-thumb">
-                        <Image src={dam3} alt="portfolio Item" />
-                      </figure>
-                    </div>
-
-                    <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                      <figure class="portfolio-thumb">
-                        <Image src={dam4} alt="portfolio Item" />
-                      </figure>
-                    </div>
-
-                    <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                      <figure class="portfolio-thumb">
-                        <Image src={dam5} alt="portfolio Item" />
-                      </figure>
-                    </div>
-
-                  </div>
 
 
                 </article>
@@ -135,6 +121,190 @@ const ServicesPage = () => {
 
 
 
+
+
+
+
+
+
+
+                <article class="post single-post pd-b-100" data-aos="fade-up">
+                  <div class="row">
+                    <div class="col-lg-6 post-thumb">
+                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
+                        <ImageSlideshow images={[canal1, canal2, canal4]} />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="post-details">
+                        <h2 class="entry-title">Water Conveyance Systems & Irrigation Management </h2>
+                        <div class="entry-content">
+                          <ul>
+                            <li>Calibration and Benchmarking of Irrigation Systems</li>
+                            <li>Canal Engineering and enhancement of hydraulic conductivity</li>
+                            <li>Canal structures</li>
+                            <li>Conveyance Efficiency Enhancement</li>
+                            <li>Planning and Design of Lift Irrigation Systems</li>
+                            <li>Repairs, Rehabilitation and Modernization of Canals</li>
+                            <li>Flow Measurement, Canal Operation, Instrumentation and Automation</li>
+                            <li>Micro Irrigation Systems</li>
+                            <li>Irrigation in Challenging Soils</li>
+
+                          </ul>
+                          <p>
+                          </p>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+
+                </article>
+
+                <article class="post single-post pd-b-100" data-aos="fade-up">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
+                        <ImageSlideshow images={[harvesting1, harvesting2, harvesting4]} />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="post-details">
+                        <h2 class="entry-title">Water Harvesting Systems & Conjunctive Use of Water </h2>
+                        <div class="entry-content">
+                          <ul>
+
+                            <li>Planning and Design of Decentralized Water Harvesting Systems</li>
+                            <li>Groundwater Recharge </li>
+                            <li>Conjunctive Use of Water </li>
+                            <li>Conveyance Efficiency Enhancement </li>
+                            <li>Ancient Water Conservation Systems</li>
+
+                          </ul>
+                          <p>
+                          </p>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                </article>
+
+
+
+                <article class="post single-post pd-b-100" data-aos="fade-up">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
+                        <ImageSlideshow images={[planning1, planning2]} />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="post-details">
+                        <h2 class="entry-title">Water Planning and Management </h2>
+                        <div class="entry-content">
+                          <ul>
+
+                            <li>Deficit Planning</li>
+                            <li>Supplementary Irrigation Management </li>
+                            <li>Drainage Design</li>
+                            <li>Water Budgeting, Accounting and Auditing</li>
+                            <li>Water Recycling, Reuse and Water Quality Management</li>
+
+
+                          </ul>
+                          <p>
+                          </p>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                </article>
+
+
+                <article class="post single-post pd-b-100" data-aos="fade-up">
+                  <div class="row">
+                    <div class="col-lg-6 post-thumb">
+                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
+                        <ImageSlideshow images={[legal1, legal1]} />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="post-details">
+                        <h2 class="entry-title">Techno-legal Solutions   </h2>
+                        <div class="entry-content">
+                          <ul>
+                            <li>Preparation of Detailed Project Report</li>
+                            <li> Drafting Tender Documents</li>
+                            <li>Preparing Project Execution Models</li>
+                            <li>Preparing Project Finance and Business Models</li>
+                            <li>Arbitration and Conciliation Services</li>
+
+
+
+                          </ul>
+                          <p>
+                          </p>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+
+                </article>
+
+
+                <article class="post single-post pd-b-100" data-aos="fade-up">
+                  <div class="row">
+                    <div class="col-lg-6 post-thumb">
+                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
+                        <ImageSlideshow images={[river1, river2]} />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="post-details">
+                        <h2 class="entry-title">River Engineering and Ecology   </h2>
+                        <div class="entry-content">
+                          <ul>
+                            <li>River Training Works</li>
+                            <li>River Bank Protection Works</li>
+                            <li>Ecological flow, Ecology Preservation and Rejuvenation</li>
+                            <li> Wetland Preservation</li>
+                            <li> Design of Fish Pass and Fish Channel</li>
+
+
+                          </ul>
+                          <p>
+                          </p>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+
+                </article>
+
               </div>
 
 
@@ -142,129 +312,6 @@ const ServicesPage = () => {
 
 
 
-
-
-
-            <article class="post single-post pd-b-100">
-              <div class="row">
-                <div class="col-lg-6">
-                <figure class="post-thumb" style={{marginBottom:"20px"}}>
-                    <Image src={canal1} alt="Blog Image" />
-                  </figure>
-                </div>
-
-                <div class="col-lg-6">
-                  <div class="post-details">
-                    <h2 class="entry-title">Water Conveyance Systems & Irrigation Management </h2>
-                    <div class="entry-content">
-                      <ul>
-                        <li>Calibration and Benchmarking of Irrigation Systems</li>
-                        <li>Canal Engineering and enhancement of hydraulic conductivity</li>
-                        <li>Canal structures</li>
-                        <li>Conveyance Efficiency Enhancement</li>
-                        <li>Planning and Design of Lift Irrigation Systems</li>
-                        <li>Repairs, Rehabilitation and Modernization of Canals</li>
-                        <li>Flow Measurement, Canal Operation, Instrumentation and Automation</li>
-                        <li>Micro Irrigation Systems</li>
-                        <li>Irrigation in Challenging Soils</li>
-
-                      </ul>
-                      <p>
-                      </p>
-
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="row portfolio-grid gutters-40">
-                <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                  <figure class="portfolio-thumb">
-                    <Image src={canal2} alt="portfolio Item" />
-                  </figure>
-                </div>
-
-                <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                  <figure class="portfolio-thumb">
-                    <Image src={canal3} alt="portfolio Item" />
-                  </figure>
-                </div>
-
-                <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                  <figure class="portfolio-thumb">
-                    <Image src={canal4} alt="portfolio Item" />
-                  </figure>
-                </div>
-
-                <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                  <figure class="portfolio-thumb">
-                    <Image src={canal5} alt="portfolio Item" />
-                  </figure>
-                </div>
-
-              </div>
-
-            </article>
-
-            <article class="post single-post pd-b-100">
-              <div class="row">
-                <div class="col-lg-6">
-                  <figure class="post-thumb" style={{marginBottom:"20px"}}>
-                    <Image src={harvesting1} alt="Blog Image" />
-                  </figure>
-                </div>
-
-                <div class="col-lg-6">
-                  <div class="post-details">
-                    <h2 class="entry-title">Water Harvesting Systems & Conjunctive Use of Water </h2>
-                    <div class="entry-content">
-                      <ul>
-
-                        <li>Planning and Design of Decentralized Water Harvesting Systems</li>
-                        <li>Groundwater Recharge </li>
-                        <li>Conjunctive Use of Water </li>
-                        <li>Conveyance Efficiency Enhancement </li>
-                        <li>Ancient Water Conservation Systems</li>
-
-                      </ul>
-                      <p>
-                      </p>
-
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="row portfolio-grid gutters-40">
-                <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                  <figure class="portfolio-thumb">
-                    <Image src={harvesting2} alt="portfolio Item" />
-                  </figure>
-                </div>
-
-                <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                  <figure class="portfolio-thumb">
-                    <Image src={harvesting3} alt="portfolio Item" />
-                  </figure>
-                </div>
-
-                <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                  <figure class="portfolio-thumb">
-                    <Image src={harvesting4} alt="portfolio Item" />
-                  </figure>
-                </div>
-
-                <div class="item col-lg-4 col-xl-3 col-md-6 application">
-                  <figure class="portfolio-thumb">
-                    <Image src={harvesting5} alt="portfolio Item" />
-                  </figure>
-                </div>
-
-              </div>
-
-            </article>
 
 
 
