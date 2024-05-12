@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import Logo from "../public/images/logo/SecondaryLogo_Coloured.png"
+import Logo from "../public/images/logo/SecondaryLogo_Coloured.jpg"
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaBars, FaTimes } from 'react-icons/fa';

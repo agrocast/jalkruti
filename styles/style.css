@@ -6826,7 +6826,7 @@ a:active {
   padding-bottom: 40px;
   box-shadow: 0 0 0 transparent;
   border-radius: 0;
-  padding: 20px;
+  /* padding: 20px; */
 
 
 }
@@ -9712,6 +9712,8 @@ a:active {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 15px;
   display: inline-block;
+  width: 10px !important;
+  height: 10px !important;
   margin: 4px;
   padding: 4px;
 }
@@ -9725,8 +9727,8 @@ a:active {
 }
 
 .slick-dots li button {
-  height: 5px;
-  width: 5px;
+  height: 10px !important;
+  width: 10px !important;
   margin: 0;
   background: #d6d6d6;
   display: block;

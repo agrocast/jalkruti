@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Logo from "../public/images/logo/SecondaryLogo_Coloured.png"
+import Logo from "../public/images/logo/SecondaryLogo_Coloured.jpg"
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from 'next/link'

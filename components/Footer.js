@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 import { FaExternalLinkAlt } from "react-icons/fa";
-import logo from "../public/images/logo/PrimaryLogo_Coloured.png"
+import logo from "../public/images/logo/PrimaryLogo_Coloured.jpg"
 const Footer = () => {
 	return (
 		<footer id="contact-block" className="site-footer">

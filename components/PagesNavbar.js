@@ -1,6 +1,6 @@
 import React from 'react'
 // import Logo from "../public/imgs/PrimaryLogo_Coloured.png"
-import Logo from "../public/images/logo/SecondaryLogo_Coloured.png"
+import Logo from "../public/images/logo/SecondaryLogo_Coloured.jpg"
 import Image from 'next/image'
 import Link from 'next/link'
 
