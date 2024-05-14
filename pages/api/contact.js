@@ -16,8 +16,7 @@ export const transporter = nodemailer.createTransport({
 
 export const mailOptions = {
   from: email, // Sender mail
-  // to: email, // In this case receiver and sender will be same
-  to: "chaudharypc2604@gmail.com", // Reciver mail
+  to: "info@jalkruti.com", // Reciver mail
 };
 
 
@@ -28,10 +27,10 @@ const CONTACT_MESSAGE_FIELDS = {
   name: "Name",
   email: "Email",
   subject: "Subject",
-  phone: "Contact Number",
   organization: "Organization",
+  phone: "Phone",
   message: "Message",
-
+  
   
 };
 
@@ -48,7 +47,7 @@ const generateEmailContent = (data) => {
 
   return {
     text: stringData,
-    html: `<!DOCTYPE html><html> <head> <title></title> <meta charset="utf-8"/> <meta name="viewport" content="width=device-width, initial-scale=1"/> <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <style type="text/css"> body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}table{border-collapse: collapse !important;}body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}@media screen and (max-width: 525px){.wrapper{width: 100% !important; max-width: 100% !important;}.responsive-table{width: 100% !important;}.padding{padding: 10px 5% 15px 5% !important;}.section-padding{padding: 0 15px 50px 15px !important;}}.form-container{margin-bottom: 24px; padding: 20px; border: 1px dashed #ccc;}.form-heading{color: #2a2a2a; font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; font-weight: 400; text-align: left; line-height: 20px; font-size: 18px; margin: 0 0 8px; padding: 0;}.form-answer{color: #2a2a2a; font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; font-weight: 300; text-align: left; line-height: 20px; font-size: 16px; margin: 0 0 24px; padding: 0;}div[style*="margin: 16px 0;"]{margin: 0 !important;}</style> </head> <body style="margin: 0 !important; padding: 0 !important; background: #fff"> <div style=" display: none; font-size: 1px; color: #fefefe; line-height: 1px;  max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; " ></div><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td bgcolor="#ffffff" align="center" style="padding: 10px 15px 30px 15px" class="section-padding" > <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px" class="responsive-table" > <tr> <td> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tr> <td> <table width="100%" border="0" cellspacing="0" cellpadding="0" > <tr> <td style=" padding: 0 0 0 0; font-size: 16px; line-height: 25px; color: #232323; " class="padding message-content" > <h2>New Message</h2> <div class="form-container">${htmlData}</div></td></tr></table> </td></tr></table> </td></tr></table> </td></tr></table> </body></html>`,
+    html: `<!DOCTYPE html><html> <head> <title></title> <meta charset="utf-8"/> <meta name="viewport" content="width=device-width, initial-scale=1"/> <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <style type="text/css"> body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}table{border-collapse: collapse !important;}body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}@media screen and (max-width: 525px){.wrapper{width: 100% !important; max-width: 100% !important;}.responsive-table{width: 100% !important;}.padding{padding: 10px 5% 15px 5% !important;}.section-padding{padding: 0 15px 50px 15px !important;}}.form-container{margin-bottom: 24px; padding: 20px; border: 1px dashed #ccc;}.form-heading{color: #2a2a2a; font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; font-weight: 400; text-align: left; line-height: 20px; font-size: 18px; margin: 0 0 8px; padding: 0;}.form-answer{color: #2a2a2a; font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; font-weight: 300; text-align: left; line-height: 20px; font-size: 16px; margin: 0 0 24px; padding: 0;}div[style*="margin: 16px 0;"]{margin: 0 !important;}</style> </head> <body style="margin: 0 !important; padding: 0 !important; background: #fff"> <div style=" display: none; font-size: 1px; color: #fefefe; line-height: 1px;  max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; " ></div><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td bgcolor="#ffffff" align="center" style="padding: 10px 15px 30px 15px" class="section-padding" > <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px" class="responsive-table" > <tr> <td> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tr> <td> <table width="100%" border="0" cellspacing="0" cellpadding="0" > <tr> <td style=" padding: 0 0 0 0; font-size: 16px; line-height: 25px; color: #232323; " class="padding message-content" > <h2>New Contact Message</h2> <div class="form-container">${htmlData}</div></td></tr></table> </td></tr></table> </td></tr></table> </td></tr></table> </body></html>`,
   };
 };
 
@@ -69,6 +68,28 @@ const handler = async (req, res) => {
         subject: data.subject,
       });
 
+      // Send confirmation email to the sender
+      await transporter.sendMail({
+        from: email,
+        to: data.email,
+        subject: "Thank you for contacting us",
+        text: `Thank you ${data.name} for contacting us. We will revert back to you shortly.\n\nRegards,\nJalkruti Team\nwww.jalkruti.com\nLinkedIn: https://www.linkedin.com/company/jalkruti-water-solutions-pvt-ltd/`,
+        html: `
+          <html>
+          <body>
+            
+            <p>Thank you <strong>${data.name}</strong> for contacting us. We will revert back to you shortly.</p>
+            <p>Regards,<br/>
+               Jalkruti Team</p>
+            <p>Visit us at <a href="http://www.jalkruti.com" target="_blank">www.jalkruti.com</a><br/>
+               Connect with us on <a href="https://www.linkedin.com/company/jalkruti-water-solutions-pvt-ltd/" target="_blank">LinkedIn</a></p>
+          </body>
+          </html>
+        ` // Personalizing the HTML message with a professional signature and company logo
+      });
+      
+      
+
       return res.json({ success: true });
     } catch (err) {
       console.log(err);
@@ -79,3 +100,5 @@ const handler = async (req, res) => {
 };
 
 export default handler;
+
+

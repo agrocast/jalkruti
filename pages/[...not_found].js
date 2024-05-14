@@ -3,6 +3,8 @@ import React from 'react'
 import img1 from "../public/images/others/404.png"
 import Head from 'next/head'
 import PageTitle from '../components/PageTitle'
+import Footer from '../components/Footer'
+import Link from 'next/link'
 const NotFoundPage = () => {
   return (
     <>
@@ -29,11 +31,14 @@ const NotFoundPage = () => {
                     <Image src={img1} alt="Error" />
                   </div>
 
-                  <div className="error-text-content">
+                  <div className="error-text-content pd-b-20">
                     <h2 className="error-title">Page Not Found</h2>
                     <p className="error-text">A 404 error is a common error and can be caused by a number of issues.
                       Essentially, a 404 error occurs when the information that you requested is not available</p>
                   </div>
+
+                  <Link href="/" className="btn btn-primary">Back to Home<i className="fa fa-angle-double-right"></i></Link>
+
                 </div>
 
               </div>
@@ -43,6 +48,8 @@ const NotFoundPage = () => {
 
         </div>
       </div>
+
+      <Footer/>
 
     </>
 

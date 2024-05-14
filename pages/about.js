@@ -19,40 +19,45 @@ import Footer from '../components/Footer'
 
 const TeamData = [
 	{
-		Name: "Mr. Vivek Kapadia (Ex. Secretary GoG)",
+		Name: "Vivek Kapadia",
 		Designation: "Director",
+		Title: "",
 		LinkedIn: "https://www.linkedin.com/in/vivek-kapadia-77678116a/",
 		Twitter: "https://twitter.com/VivekPKapadia",
 		Email: "vivek@jalkruti.com",
 		ProfielPhoto: teamMember1,
 	},
 	{
-		Name: "Dr. Harsh Love Shah (Ph.D., IIT GN)",
+		Name: "Harsh Shah",
 		Designation: "Director",
+		Title: "",
 		LinkedIn: "https://www.linkedin.com/in/harsh-shah-77595179/",
 		Twitter: "https://twitter.com",
 		Email: "harsh@jalkruti.com",
 		ProfielPhoto: teamMember2,
 	},
 	{
-		Name: "Mr. Brijesh Patel",
+		Name: "Brijesh Patel",
 		Designation: "Director",
-		LinkedIn: "https://www.linkedin.com",
+		Title: "",
+		LinkedIn: "https://www.linkedin.com/in/brijesh-patel-3a698918/",
 		Twitter: "https://twitter.com",
 		Email: "brijesh@jalkruti.com",
 		ProfielPhoto: teamMember3,
 	},
 	{
-		Name: "Prof. Vimal Mishra",
-		Designation: "Professor, IIT Gandhinagar",
+		Name: "Vimal Mishra",
+		Designation: "Advisor",
+		Title: "Professor, IIT Gandhinagar",
 		LinkedIn: "https://www.linkedin.com/in/vimal-mishra-21162265/",
 		Twitter: "https://twitter.com/AmitPrashant2",
 		Email: "vmishra@iitgn.ac.in",
 		ProfielPhoto: teamMember4,
 	},
 	{
-		Name: "Prof. Amit Prashant",
-		Designation: "Professor, IIT Gandhinagar",
+		Name: "Amit Prashant",
+		Designation: "Advisor",
+		Title: "Professor, IIT Gandhinagar",
 		LinkedIn: "https://www.linkedin.com/in/amit-prashant-3865271a9/",
 		Twitter: "https://twitter.com/vmishraiit",
 		Email: "ap@iitgn.ac.in",
@@ -71,71 +76,52 @@ const AboutPage = () => {
 			</Head>
 
 			<PageTitle
-				pageName="About Us"
-				TagLine="Water Engineering Excellence"
+				pageName="Excelling Water Resource Engineering and Management"
+				TagLine=""
 			/>
 
 
 
-			<div id="about-block" className="about-us-block about-style-two pd-t-170">
-				{/* <div className="container container-1200">
-					<div className="row justify-content-center">
-						<div className="col-lg-8">
-							<div className="section-title text-center">
-								<h2 className="title-main">
-									About
-								</h2>
-								<p className="sub-title">We work with you, Not for you</p>
-							</div>
+			<div className="about-us-block about-style-two pd-t-50">
+			<div class="container">
+				<div className='row'>
+					<div className='col-md-6'>
+						<div className='about_img' style={{ width: "100%" }}>
+							<Image src={backgroundImg} alt='about-img' />
 						</div>
 					</div>
-				</div> */}
-				<div className="about-block-content">
-					<div className="bg-image bg-overlay about-bg"
-						style={{ background: "rgba(0, 0, 0, 0) url(" + backgroundImg.src + ")", backgroundBlendMode: "overlay" }}
-					//    style="background-image:url('assets/images/bg/about-bg.jpg')"
-					>
-					</div>
-					<div className="container container-1200">
-						<div className="row align-items-center flex-column-reverse flex-lg-row">
-							<div className="col-md-10 col-lg-6">
-								<div className="fanfact-promo-numbers">
-									<h4>We have expertise in water resource planning, design, and management.</h4>
-									{/* <div className="promo-number">
-										<div className="odometer" data-odometer-final="117">0</div>
-										<h4 className="promo-title">Happy Client</h4>
-									</div>
-									<div className="promo-number">
-										<div className="odometer" data-odometer-final="20">0</div>
-										<h4 className="promo-title">Years Experience</h4>
-									</div>
-									<div className="promo-number">
-										<div className="odometer" data-odometer-final="16">0</div>
-										<h4 className="promo-title">Award Wines</h4>
-									</div>
-									<div className="promo-number">
-										<div className="odometer" data-odometer-final="156">0</div>
-										<h4 className="promo-title">Project Complete</h4>
-									</div> */}
-								</div>
-							</div>
-							<div className="col-md-10 col-lg-6">
-								<div className="about-content">
-									<h3 className="heading">Who We Are</h3>
-									<p>Jalkruti Water Solutions Private Limited is water engineering consulting firm. It provides services in dam engineering, barrage engineering, river hydrology, river hydraulics, river training works, e-flow, catchment area treatment, instrumentation, judo mechanical and hydro electrical, sea shore protection, estuarine aspects of river and river ecology, water resource management, inter-basin transfer of water, drainage planning, domestic water supply and water treatment, industrial water treatment and effluent handling, piped water supplies, water accounting and auditing including flow measurement, mapping of water resources, groundwater management, water conveyance systems design, Topography, bathymetry and marine survey using the latest technology and UAV manufacturing and services.</p>
 
-								</div>
+					<div className='col-md-6'>
+						<div className='about_content'>
+							<div className=''>
+								<h3 className="heading">Our Mission</h3>
+								<p style={{ textAlign: "justify" }}>
+									We view water holistically. For us, Integrated Water Resource Management is not merely a
+									concept; rather, it is a healthy practice. We believe engineering is an art of adapting nature;
+									and, any effort to conquer it is disastrous. Therefore, to us, water engineering is for serving
+									ecology and mankind, living and non-living (so-called), one and all is our objective. We
+									religiously believe that so long as the hydraulic cycle runs uninterruptedly, this earth would
+									exist. A strong team having vast experience and deep knowledge in all the domains of water
+									resource engineering and management in particular and of Civil Engineering in general is
+									capable of providing solutions of very complex problems. We trust, our endeavours would be
+									welcomed, appreciated and engaged by the water sector of India.
+								</p>
 							</div>
+
 						</div>
+
 					</div>
 				</div>
+				</div>
+
 			</div>
 
 
 
-			<div id="service-block" class="services-block pd-t-170" data-aos="fade-up">
+
+			{/* <div id="service-block" class="services-block pd-t-170" >
 				<div class="container container-1200">
-					
+
 					<div class="row justify-content-center">
 						<div class="col-lg-8">
 							<div class="section-title text-center">
@@ -222,11 +208,11 @@ const AboutPage = () => {
 
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 
 
-			<div className="team-block pd-t-170 pd-b-170" data-aos="fade-up">
+			<div className="team-block pd-t-130 pd-b-100">
 				<div className="container container-1200 ml-b-30">
 					<div className="row justify-content-center">
 						<div className="col-lg-8">
@@ -245,30 +231,43 @@ const AboutPage = () => {
 
 						{TeamData.map((item, index) => (
 							<div key={index} className='team_container'>
-								<div className="team-item" style={{border:"1px solid #cfcfcf", minHeight:"100%"}}>
-									<figure className="team-thumb">
+								<div className="team-item" style={{ border: "1px solid #cfcfcf", minHeight: "100%" }}>
+									<figure className="team-thumb" style={{ borderBottom: "0.5px solid grey" }}>
 										<Image src={item.ProfielPhoto} alt="Team Member" />
 									</figure>
-									<div className="team-info">
-										<p className="designation">{item.Designation}
+									<div className="team-info" style={{ minHeight: "120px" }}>
+
+
+										<p className="designation">
+											{item.Title}
 										</p>
+
+										<p className="designation">
+											<strong>
+												{item.Designation}
+
+											</strong>
+										</p>
+
 										<h3 className="team-name">
 											{item.Name}
 										</h3>
 
-										<div class="social-status">
+									</div>
 
-											<div class="entry-share">
-												<div className="share">
-													<a href={item.LinkedIn} target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
-													{/* <a href={`mailto:${item.Email}`} target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope-o" aria-hidden="true"></i></a> */}
-													{/* <a href={item.Twitter} target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" aria-hidden="true"></i></a> */}
-												</div>
+									<div class="social-status">
+
+										<div class="entry-share">
+											<div className="share">
+												<a href={item.LinkedIn} target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+												{/* <a href={`mailto:${item.Email}`} target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope-o" aria-hidden="true"></i></a> */}
+												{/* <a href={item.Twitter} target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" aria-hidden="true"></i></a> */}
 											</div>
 										</div>
-
-
 									</div>
+
+
+
 								</div>
 							</div>
 						))}
@@ -337,12 +336,12 @@ const AboutPage = () => {
 				</div>
 			</div> */}
 
-			
 
 
 
 
-<Footer/>
+
+			<Footer />
 
 
 		</>

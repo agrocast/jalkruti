@@ -57,7 +57,7 @@ const ServicesPage = () => {
       <div class="site-content" >
 
 
-        <div class="blog-page-block pd-t-100 pd-b-130">
+        <div class="blog-page-block pd-t-50">
 
           <div className="container container-1200">
 
@@ -308,7 +308,7 @@ const ServicesPage = () => {
                       </div>
                     </div>
 
-                    
+
                   </div>
 
 
