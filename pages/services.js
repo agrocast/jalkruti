@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import PageTitle from '../components/PageTitle'
 import React from 'react'
-import Image from 'next/image'
 import dam1 from "../public/images/services/dam1.jpg"
 import dam2 from "../public/images/services/dam2.jpg"
 import dam3 from "../public/images/services/dam3.jpg"

@@ -8,11 +8,6 @@ import Image from 'next/image'
 import backgroundImg from "../public/images/bg/about-bg.jpg"
 import PageTitle from '../components/PageTitle'
 import Head from 'next/head'
-
-import BuildTrust from "../public/images/icon/BuildTrust.png"
-import Takecharge from "../public/images/icon/Takecharge.png"
-import ThriveTogether from "../public/images/icon/ThriveTogether.png"
-import Quality from "../public/images/icon/Quality.png"
 import Footer from '../components/Footer'
 
 

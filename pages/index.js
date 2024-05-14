@@ -1,14 +1,10 @@
 "use client"
-import React, { useRef } from 'react';
-import Image from "next/image";
+import React  from 'react';
 import backgroundImg from "../public/images/bg/backgroundVideo.gif"
-import backgroundImg1 from "../public/images/others/shape.png"
 import Link from "next/link";
-import aboutImg from "../public/images/about.png"
 import Head from 'next/head';
 
 export default function Home() {
-  const aboutProgressRef = useRef(null);
 
   return (
     <div>
