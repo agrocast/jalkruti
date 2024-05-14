@@ -172,7 +172,7 @@ const ContactPage = () => {
                 </div>
 
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 mb-10">
 
                 <div className="comment-respond" style={{ height: "100%" }}>
                   <div className="comment-form">

@@ -22,7 +22,7 @@ export default function Home() {
 
 
       <div id="hero-block" className="hero-block bg-image bg-overlay overlay-image-one bg-parallax"
-        style={{ background: "rgba(0, 0, 0, 0) url(" + backgroundImg.src + ")", backgroundBlendMode: "overlay", height: "100vh" }}>
+        style={{ background: "rgba(0, 0, 0, 0) url(" + backgroundImg.src + ")", backgroundBlendMode: "overlay", height: "100vh", paddingTop:"35vh" }}>
 
 
 
