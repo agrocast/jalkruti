@@ -82,7 +82,7 @@ const ContactPage = () => {
 
         {/* <div id="about-block" className="about-us-block about-style-two pd-t-170"> */}
 
-        <div className="blog-page-block pd-t-170 pd-b-100" data-aos="fade-up">
+        <div className="blog-page-block pd-t-50 pd-b-100">
           <div className="container container-1200">
             <div className="row">
               <div className="col-lg-8">
@@ -213,7 +213,7 @@ const ContactPage = () => {
         </div>
 
 
-        {/* <div className="blog-page-block pd-t-50 pd-b-130" data-aos="fade-up">
+        {/* <div className="blog-page-block pd-t-50 pd-b-130">
           <div className="container container-1200">
             <div className="row">
               <div className="col-lg-12">
