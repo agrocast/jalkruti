@@ -13,24 +13,14 @@ const Footer = () => {
 						<div className="row">
 
 							<div className="col-lg-8 col-md-8">
-									<div className='footer_logo'>
-									<Image src={logo} alt="logo_image"/>
+								<div className='footer_logo'>
+									<Image src={logo} alt="logo_image" />
 
-									</div>
-									{/* <h2 className="widget-title"><span>Quick Link</span></h2> */}
+								</div>
 
-									{/* <div className="footer_widget widget-content" >
-
-
-										<Link href="/">Home</Link> 
-										<Link href="/about">About</Link>
-										<Link href="/services">Services</Link>
-										<Link href="/contact">Contact Us</Link>
-										<a href="https://clustrmaps.com/site/1bzlq" target='_blank'>Website Visitors <FaExternalLinkAlt /></a>
-
-									</div> */}
 
 							</div>
+
 							<div className="col-lg-4 col-md-4">
 								<aside className="widget widget_contact">
 
@@ -42,12 +32,6 @@ const Footer = () => {
 												</div>
 												<p><a href="mailto:info@jalkruti.com">info@jalkruti.com</a></p>
 											</div>
-											{/* <div className="single-contact-info">
-												<div className="icon">
-													<i class="fa fa-phone" aria-hidden="true"></i>
-												</div>
-												<p>+91-9909028626</p>
-											</div> */}
 										</div>
 										<div className="col-lg-6 col-md-6">
 
@@ -64,7 +48,7 @@ const Footer = () => {
 
 														<div class="share" style={{ display: "flex", textAlign: "right" }}>
 															{/* <a href="#"><i class="fa fa-facebook-f"></i></a> */}
-															<a href="#"><i class="fa fa-twitter"></i></a>
+															{/* <a href="#"><i class="fa fa-twitter"></i></a> */}
 															<a href="#"><i class="fa fa-linkedin"></i></a>
 															{/* <a href="#"><i class="fa fa-youtube"></i></a> */}
 
@@ -72,14 +56,6 @@ const Footer = () => {
 
 														</div>
 													</div>
-
-													{/* 									
-												<div class="social-profile-list" style={{display:"flex", textAlign:"right"}}>
-													<a href="#"><i class="fab fa-instagram"></i></a>
-													<a href="#"><i class="fab fa-facebook-f"></i></a>
-													<a href="#"><i class="fab fa-twitter"></i></a>
-													<a href="#"><i class="fab fa-linkedin-in"></i></a>
-												</div> */}
 												</div>
 
 											</div>

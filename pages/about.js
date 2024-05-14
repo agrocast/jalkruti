@@ -77,7 +77,7 @@ const AboutPage = () => {
 
 
 
-			<div id="about-block" className="about-us-block about-style-two pd-t-170" data-aos="fade-up">
+			<div id="about-block" className="about-us-block about-style-two pd-t-170">
 				{/* <div className="container container-1200">
 					<div className="row justify-content-center">
 						<div className="col-lg-8">
@@ -245,7 +245,7 @@ const AboutPage = () => {
 
 						{TeamData.map((item, index) => (
 							<div key={index} className='team_container'>
-								<div className="team-item" style={{border:"1px solid #cfcfcf", minHeight:"450px"}}>
+								<div className="team-item" style={{border:"1px solid #cfcfcf", minHeight:"100%"}}>
 									<figure className="team-thumb">
 										<Image src={item.ProfielPhoto} alt="Team Member" />
 									</figure>
@@ -261,8 +261,8 @@ const AboutPage = () => {
 											<div class="entry-share">
 												<div className="share">
 													<a href={item.LinkedIn} target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
-													<a href={`mailto:${item.Email}`} target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope-o" aria-hidden="true"></i></a>
-													<a href={item.Twitter} target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+													{/* <a href={`mailto:${item.Email}`} target="_blank" rel="noopener noreferrer"><i className="fa fa-envelope-o" aria-hidden="true"></i></a> */}
+													{/* <a href={item.Twitter} target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" aria-hidden="true"></i></a> */}
 												</div>
 											</div>
 										</div>

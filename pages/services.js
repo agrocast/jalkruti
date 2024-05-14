@@ -130,11 +130,7 @@ const ServicesPage = () => {
 
                 <article class="post single-post pd-b-100" data-aos="fade-up">
                   <div class="row">
-                    <div class="col-lg-6 post-thumb">
-                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
-                        <ImageSlideshow images={[canal1, canal2, canal4]} />
-                      </div>
-                    </div>
+                    
 
                     <div class="col-lg-6">
                       <div class="post-details">
@@ -159,6 +155,13 @@ const ServicesPage = () => {
                       </div>
 
                     </div>
+
+                    <div class="col-lg-6 post-thumb">
+                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
+                        <ImageSlideshow images={[canal1, canal2, canal4]} />
+                      </div>
+                    </div>
+
                   </div>
 
 
@@ -202,11 +205,7 @@ const ServicesPage = () => {
 
                 <article class="post single-post pd-b-100" data-aos="fade-up">
                   <div class="row">
-                    <div class="col-lg-6">
-                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
-                        <ImageSlideshow images={[planning1, planning2]} />
-                      </div>
-                    </div>
+                    
 
                     <div class="col-lg-6">
                       <div class="post-details">
@@ -229,6 +228,13 @@ const ServicesPage = () => {
                       </div>
 
                     </div>
+
+                    <div class="col-lg-6">
+                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
+                        <ImageSlideshow images={[planning1, planning2]} />
+                      </div>
+                    </div>
+
                   </div>
 
 
@@ -273,11 +279,7 @@ const ServicesPage = () => {
 
                 <article class="post single-post pd-b-100" data-aos="fade-up">
                   <div class="row">
-                    <div class="col-lg-6 post-thumb">
-                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
-                        <ImageSlideshow images={[river1, river2]} />
-                      </div>
-                    </div>
+                    
 
                     <div class="col-lg-6">
                       <div class="post-details">
@@ -299,6 +301,14 @@ const ServicesPage = () => {
                       </div>
 
                     </div>
+
+                    <div class="col-lg-6 post-thumb">
+                      <div class="post-thumb" style={{ marginBottom: "20px" }}>
+                        <ImageSlideshow images={[river1, river2]} />
+                      </div>
+                    </div>
+
+                    
                   </div>
 
 

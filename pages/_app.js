@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <NavbarMain />
       <Component {...pageProps} />
-      <ScrollToTopButton />
+      {/* <ScrollToTopButton /> */}
  
     </>
   )

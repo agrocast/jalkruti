@@ -6,8 +6,10 @@ import backgroundImg from "../public/images/bg/page-heading-bg.gif"
 
 const PageTitle = ({ pageName, TagLine }) => {
 	return (
+		<>
 		<div id="page_banner" className="hero-block bg-image bg-overlay overlay-image-one bg-parallax"
-			style={{ background: "rgba(0, 0, 0, 0) url(" + backgroundImg.src + ")", backgroundBlendMode: "overlay", height: "100px" }}>
+			style={{ background: "rgba(0, 0, 0, 0) url(" + backgroundImg.src + ")", backgroundBlendMode: "overlay"}}
+			>
 
 			<div className="container">
 				<div className="row">
@@ -23,6 +25,7 @@ const PageTitle = ({ pageName, TagLine }) => {
 				</div>
 			</div>
 		</div>
+		</>
 	);
 };
 

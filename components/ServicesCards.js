@@ -82,10 +82,11 @@ const ServicesCards = () => {
                 {/* </Link> */}
               </h2>
 
+
               <div className="entry-meta">
                 <div className="entry-date">{item.Description}</div>
-
               </div>
+
 
             </div>
           </article>
