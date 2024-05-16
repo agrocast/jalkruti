@@ -91,15 +91,7 @@ const AboutPage = () => {
 							<div className=''>
 								<h3 className="heading">Our Mission</h3>
 								<p style={{ textAlign: "justify" }}>
-									We view water holistically. For us, Integrated Water Resource Management is not merely a
-									concept; rather, it is a healthy practice. We believe engineering is an art of adapting nature;
-									and, any effort to conquer it is disastrous. Therefore, to us, water engineering is for serving
-									ecology and mankind, living and non-living (so-called), one and all is our objective. We
-									religiously believe that so long as the hydraulic cycle runs uninterruptedly, this earth would
-									exist. A strong team having vast experience and deep knowledge in all the domains of water
-									resource engineering and management in particular and of Civil Engineering in general is
-									capable of providing solutions of very complex problems. We trust, our endeavours would be
-									welcomed, appreciated and engaged by the water sector of India.
+								We view water holistically. For us, Integrated Water Resource Management is not merely a concept; rather, it is a healthy practice. We believe engineering is an art of adapting nature; and, any effort to conquer it is disastrous. Therefore, to us, water engineering is for serving ecology and mankind, living and non-living (so-called). We religiously believe that so long as the hydraulic cycle runs uninterruptedly, this earth would exist. A strong team having vast experience and deep knowledge in all the domains of water resource engineering and management in particular and of Civil Engineering in general is capable of providing solutions of very complex problems. We trust, our mission and endeavours would be welcomed, appreciated and engaged by the water sector of India.     
 								</p>
 							</div>
 
