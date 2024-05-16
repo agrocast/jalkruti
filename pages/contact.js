@@ -61,8 +61,11 @@ const ContactPage = () => {
     <>
 
       <Head>
-        <meta name="description" content="Jalkruti Water Solutions Private Limited" />
-        <meta name="keywords" content="Jalkruti Water Solutions Private Limited, Water Solution" />
+			<meta name="description" content="How can we help you?" />
+				<meta name="keywords" content="Jalkruti, Jalkruti Water Solutions Private Limited" />
+				<meta name="author" content="Jalkruti" />
+				<meta name="copyright" content="Jalkruti Water Solutions Private Limited" />
+				<meta name="robots" content="follow" />
         <title>Contact Us | Jalkruti Water Solutions</title>
       </Head>
 

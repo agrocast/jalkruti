@@ -10,8 +10,14 @@ export default function Home() {
     <div>
 
       <Head>
-        <meta name="description" content="Jalkruti Water Solutions Private Limited" />
-        <meta name="keywords" content="Jalkruti Water Solutions Private Limited, Water Solution" />
+        <meta name="description" content="We view water holistically. For us, Integrated Water Resource Management 
+        is not merely a concept; rather, it is a healthy practice. We believe engineering is an art of adapting nature; and, 
+        any effort to conquer it is disastrous. Therefore, to us, water engineering is for serving ecology and mankind, living and non-living (so-called).
+         We religiously believe that so long as the hydraulic cycle runs uninterruptedly, this earth would exist." />
+        <meta name="keywords" content="Jalkruti, Jalkruti Water Solutions Private Limited, Water Solution" />
+        <meta name="author" content="Jalkruti" />
+        <meta name="copyright" content="Jalkruti Water Solutions Private Limited" />
+        <meta name="robots" content="follow"/>
         <title>Jalkruti Water Solutions Private Limited</title>
       </Head>
 

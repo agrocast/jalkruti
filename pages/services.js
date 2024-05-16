@@ -55,8 +55,12 @@ const ServicesPage = () => {
 
 
       <Head>
-        <meta name="description" content="Jalkruti Water Solutions Private Limited" />
-        <meta name="keywords" content="Jalkruti Water Solutions Private Limited, Water Solution" />
+        <meta name="description" content="Innovating Water Engineering for Tomorrow’s Needs" />
+        <meta name="keywords" content="Jalkruti, Jalkruti Water Solutions Private Limited, Water Solution" />
+        <meta name="author" content="Jalkruti" />
+        <meta name="copyright" content="Jalkruti Water Solutions Private Limited" />
+        <meta name="robots" content="follow"/>
+
         <title>Services | Jalkruti Water Solutions</title>
       </Head>
 

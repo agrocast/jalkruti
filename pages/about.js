@@ -67,8 +67,11 @@ const AboutPage = () => {
 		<>
 
 			<Head>
-				<meta name="description" content="Jalkruti Water Solutions Private Limited" />
-				<meta name="keywords" content="Jalkruti Water Solutions Private Limited, Water Solution" />
+				<meta name="description" content="Excelling Water Resource Engineering and Management" />
+				<meta name="keywords" content="Jalkruti, Jalkruti Water Solutions Private Limited" />
+				<meta name="author" content="Jalkruti" />
+				<meta name="copyright" content="Jalkruti Water Solutions Private Limited" />
+				<meta name="robots" content="follow" />
 				<title>About | Jalkruti Water Solutions</title>
 			</Head>
 
@@ -80,32 +83,32 @@ const AboutPage = () => {
 
 
 			<div className="about-us-block about-style-two pd-t-50">
-			<div class="container">
-				<div className='row'>
-					<div className='col-md-6'>
-						<div className='about_img' style={{ width: "100%" }}>
-							{/* <Image src={backgroundImg} alt='about-img' /> */}
-							
-							<video controls loop muted autoPlay >
-                            <source src="/images/about-video.mp4" type="video/mp4" />
-                        </video>
+				<div class="container">
+					<div className='row'>
+						<div className='col-md-6'>
+							<div className='about_img' style={{ width: "100%" }}>
+								{/* <Image src={backgroundImg} alt='about-img' /> */}
 
+								<video controls loop muted autoPlay >
+									<source src="/images/about-video.mp4" type="video/mp4" />
+								</video>
+
+							</div>
 						</div>
-					</div>
 
-					<div className='col-md-6'>
-						<div className='about_content'>
-							<div className=''>
-								<h3 className="heading">Our Mission</h3>
-								<p style={{ textAlign: "justify" }}>
-								We view water holistically. For us, Integrated Water Resource Management is not merely a concept; rather, it is a healthy practice. We believe engineering is an art of adapting nature; and, any effort to conquer it is disastrous. Therefore, to us, water engineering is for serving ecology and mankind, living and non-living (so-called). We religiously believe that so long as the hydraulic cycle runs uninterruptedly, this earth would exist. A strong team having vast experience and deep knowledge in all the domains of water resource engineering and management in particular and of Civil Engineering in general is capable of providing solutions of very complex problems. We trust, our mission and endeavours would be welcomed, appreciated and engaged by the water sector of India.     
-								</p>
+						<div className='col-md-6'>
+							<div className='about_content'>
+								<div className=''>
+									<h3 className="heading">Our Mission</h3>
+									<p style={{ textAlign: "justify" }}>
+										We view water holistically. For us, Integrated Water Resource Management is not merely a concept; rather, it is a healthy practice. We believe engineering is an art of adapting nature; and, any effort to conquer it is disastrous. Therefore, to us, water engineering is for serving ecology and mankind, living and non-living (so-called). We religiously believe that so long as the hydraulic cycle runs uninterruptedly, this earth would exist. A strong team having vast experience and deep knowledge in all the domains of water resource engineering and management in particular and of Civil Engineering in general is capable of providing solutions of very complex problems. We trust, our mission and endeavours would be welcomed, appreciated and engaged by the water sector of India.
+									</p>
+								</div>
+
 							</div>
 
 						</div>
-
 					</div>
-				</div>
 				</div>
 
 			</div>
