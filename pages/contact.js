@@ -67,8 +67,8 @@ const ContactPage = () => {
       </Head>
 
       <PageTitle
-        pageName="Contact Us"
-        TagLine="How can we help you?"
+        pageName="How can we help you?"
+        TagLine=""
       />
 
       <div className="site-content" >

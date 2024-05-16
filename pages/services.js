@@ -61,8 +61,8 @@ const ServicesPage = () => {
       </Head>
 
       <PageTitle
-        pageName="Our Services"
-        TagLine="Innovating Water Engineering for Tomorrow’s Needs"
+        pageName="Innovating Water Engineering for Tomorrow’s Needs"
+        TagLine=""
       />
 
 
