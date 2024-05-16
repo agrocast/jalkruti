@@ -17,7 +17,7 @@ import dynamic from 'next/dynamic'
 const TeamData = [
 	{
 		Name: "Vivek Kapadia",
-		Designation: "Director",
+		Designation: "Founder and CEO ",
 		Title: "",
 		LinkedIn: "https://www.linkedin.com/in/vivek-kapadia-77678116a/",
 		Twitter: "https://twitter.com/VivekPKapadia",
@@ -26,7 +26,7 @@ const TeamData = [
 	},
 	{
 		Name: "Harsh Shah",
-		Designation: "Director",
+		Designation: "CTO",
 		Title: "",
 		LinkedIn: "https://www.linkedin.com/in/harsh-shah-77595179/",
 		Twitter: "https://twitter.com",
