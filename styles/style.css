@@ -5087,7 +5087,17 @@ a:active {
   border-radius: 5px;
 }
 
+.about_img video{
+  height:100%;
+  border-radius: 10px;
+  width: 100%;
+}
 
+
+.reverse_row{
+  flex-direction: column-reverse;
+  display: flex;
+}
 
 
 .hero-block .hero-title {

@@ -9,6 +9,8 @@ import backgroundImg from "../public/images/bg/about-bg.jpg"
 import PageTitle from '../components/PageTitle'
 import Head from 'next/head'
 import Footer from '../components/Footer'
+import dynamic from 'next/dynamic'
+
 
 
 
@@ -82,7 +84,11 @@ const AboutPage = () => {
 				<div className='row'>
 					<div className='col-md-6'>
 						<div className='about_img' style={{ width: "100%" }}>
-							<Image src={backgroundImg} alt='about-img' />
+							{/* <Image src={backgroundImg} alt='about-img' /> */}
+							<video loop muted autoPlay>
+                            <source src="/images/about-video.mp4" type="video/mp4" />
+                        </video>
+
 						</div>
 					</div>
 
