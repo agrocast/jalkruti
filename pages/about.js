@@ -85,7 +85,8 @@ const AboutPage = () => {
 					<div className='col-md-6'>
 						<div className='about_img' style={{ width: "100%" }}>
 							{/* <Image src={backgroundImg} alt='about-img' /> */}
-							<video loop muted autoPlay>
+							
+							<video controls loop muted autoPlay >
                             <source src="/images/about-video.mp4" type="video/mp4" />
                         </video>
 
